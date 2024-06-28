@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Floating Point Practice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <h1>Floating Point Practice</h1>
+  
+  <div id="question"></div>
+  
+  <div>
+    <div>
+      Binary value: <span id="binaryvalue"></span>
+    </div>
+
+  <div id="solutionModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close" onclick="hideVideo()">&times;</span><br/>
+      <iframe id="solutionVideo" width="560" height="315" src="https://www.youtube.com/embed/sz4BEvJbUfQ?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+    
+  <div id="calc">
+    <div class="cardholder">
+      <div class="card" id="sign"></div>
+      <div class="card" id="mantissa"></div>
+      <div class="card" id="exponent"></div>
+    </div>
+Replace _ with either 0 or 1 as appropriate
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+    
+    <button class="button-87" id="check" onclick="checkAnswer()">Check</button>
+    <button class="button-87" id="showVid" onclick="showVideo()">Video Solution</button>    
+    <button class="button-87" id="nextQ">Next Question</button>
+ 
+  </div>
+  </div>
+
+  <div id="divscore">
+    Score: <span id="score">0</span>
+  </div>
+
+  <div id="reset">
+  </div>
+
+  <script src="script.js"></script>
+
+  <script src="csteach.js" position="bottom-right"></script>
+
+</body>
+</html>

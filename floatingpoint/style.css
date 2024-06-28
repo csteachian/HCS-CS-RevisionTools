@@ -1,0 +1,161 @@
+body {
+  font-family: 'Poppins';
+  font-size: 18px;
+  text-align: center;
+  color: #090932;
+}
+
+h1 {
+    color: #FDB80A;
+  text-shadow:
+               -1px -1px 0 black,
+                1px -1px 0 black,
+               -1px 1px 0 black,
+                1px 1px 0 black;
+}
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #2929E2;
+}
+
+input {
+  font-family: 'Poppins';
+  font-size: 18px;
+  width: 25px;
+  text-align: center;
+}
+
+div {
+  padding-bottom: 15px;
+}
+
+button {
+  display: block;
+  width: 96%;
+  border: none;
+}
+
+div#rowheader {
+  padding: 0px;
+}
+
+.rowheader {
+  background-color: #FDB80A;
+}
+
+#binaryvalue { color: #F5E8C8;
+           font-size: 32px;
+         }
+
+#divscore { color: #F5E8C8;
+       font-size: 32px;
+       }
+
+div#calc {
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5E8C8;
+  width: 90%;
+}
+
+div.cardholder{
+  display: grid;
+  grid-template-columns: 0.5fr 5.5fr 4fr;
+  grid-gap: 10px;
+  margin: 5px;
+}
+
+div.card{
+  padding-bottom: 2px;
+}
+
+div#reset {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.correct {
+  background-color: #91C230;
+}
+
+.incorrect {
+  background-color: #CF1A44;
+}
+
+#check { display:block }
+#nextQ { display:none }
+#showVid { display:none }
+
+/* CSS */
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  margin: auto auto;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: 10px solid #888; 
+  padding: 0;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  div#calc { width: 95% }
+  div#reset { width: 95% }
+  input {
+  font-family: 'Poppins';
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+}
+  div.cardholder{ display: block; }
+  div.card{padding:0px; margin:0px;}
+}

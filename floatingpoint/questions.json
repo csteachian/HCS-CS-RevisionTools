@@ -1,0 +1,58 @@
+[
+  {
+    "binaryvalue": 110.101,
+    "sign": [0],
+    "mantissa": [1,1,0,1,0,1,0,0,0,0,0,0,0,0,0], 
+    "exponent": [0,0,0,0,0,0,1,1],
+    "video": "sz4BEvJbUfQ"
+  },
+    {
+    "binaryvalue": -0.00011011001,
+    "sign": [1],
+    "mantissa": [1,1,0,1,1,0,0,1,0,0,0,0,0,0,0], 
+    "exponent": [1,1,1,1,1,1,0,1],
+    "video": "aoXV9HE3gAM"
+  },
+    {
+    "binaryvalue": 1010001011.111,
+    "sign": [0],
+    "mantissa": [1,0,1,0,0,0,1,0,1,1,1,1,1,0,0], 
+    "exponent": [0,0,0,0,1,0,1,0],
+    "video": "hmhtVX5nhqY"
+  },
+    {
+    "binaryvalue": -1111010.11,
+    "sign": [1],
+    "mantissa": [1,1,1,1,0,1,0,1,1,0,0,0,0,0,0], 
+    "exponent": [0,0,0,0,0,1,1,1],
+    "video": "Ulf2_ND8oeY"
+  },
+    {
+    "binaryvalue": 0.00000100110011,
+    "sign": [0],
+    "mantissa": [1,0,0,1,1,0,0,1,1,0,0,0,0,0,0], 
+    "exponent": [1,1,1,1,1,0,1,1],
+    "video": "SePugYnzCPw"
+  },
+    {
+    "binaryvalue": -0.100001,
+    "sign": [1],
+    "mantissa": [1,0,0,0,0,1,0,0,0,0,0,0,0,0,0], 
+    "exponent": [0,0,0,0,0,0,0,0],
+    "video": "92Ikk-qmmIs"
+  },
+    {
+    "binaryvalue": 1.01,
+    "sign": [0],
+    "mantissa": [1,0,1,0,0,0,0,0,0,0,0,0,0,0,0], 
+    "exponent": [0,0,0,0,0,0,0,1],
+    "video": "ZN4tpx-5n1w"
+  },
+    {
+    "binaryvalue": 0.011101001,
+    "sign": [0],
+    "mantissa": [1,1,1,0,1,0,0,1,0,0,0,0,0,0,0], 
+    "exponent": [1,1,1,1,1,1,1,1],
+    "video": "hYO-8i7oLXg"
+  }
+]

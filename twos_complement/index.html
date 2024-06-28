@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Two's Complement Practice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <h1>Two's Complement Practice</h1>
+  
+  <div id="question"></div>
+  
+  <div>
+    <div>
+      Negative value (decimal): <span id="decimal"></span>
+    </div>
+  
+  <div id="calc">
+    <div>
+      <div>
+        1. Calculate binary for positive value:
+      </div>
+      <div id="rowheader"></div>
+      <div id="row1"></div>
+    </div>
+
+    <div>
+      <div>
+        2. Flip all bits in stage 1:
+      </div>
+      <div id="row2"></div>
+    </div>
+
+    <div>
+      <div>
+        3. Add 1 to binary from stage 2:
+      </div>
+      <div id="row3"></div>
+    </div>
+    
+    <button class="button-87" id="check" onclick="checkAnswer()">Check</button>
+    <button class="button-87" id="nextQ">Next Question</button>
+ 
+  </div>
+  </div>
+
+  <div id="divscore">
+    Score: <span id="score">0</span>
+  </div>
+
+  <div id="reset">
+  </div>
+
+  <script src="script.js"></script>
+
+  <script src="csteach.js" position="bottom-right"></script>
+
+</body>
+</html>
